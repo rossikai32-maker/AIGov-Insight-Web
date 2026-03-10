@@ -59,9 +59,6 @@ logs/
 *.log
 log.txt
 
-# User data - NEVER commit user data!
-src/lib/users.json
-
 # Build artifacts
 *.tar
 *.tar.gz

@@ -76,9 +76,9 @@ cp start.sh dist/start.sh
 chmod +x dist/start.sh
 
 # 复制服务管理脚本
-echo "📄 复制服务管理脚本..."
-cp ai-sec-web-ctl dist/ai-sec-web-ctl
-chmod +x dist/ai-sec-web-ctl
+# echo "📄 复制服务管理脚本..."
+# cp ai-sec-web-ctl dist/ai-sec-web-ctl
+# chmod +x dist/ai-sec-web-ctl
 
 # 打包 Node.js 运行时
 echo "📦 打包 Node.js 运行时..."

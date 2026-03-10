@@ -88,18 +88,13 @@ npm run build
 npm run start
 
 # standalone 模式
-./build-package.sh 0.2.20 
+./build-package.sh -v 0.2.20 
 cd dist/ && ./start.sh --debug -d /var/log/ai-sec-agent/data/
 
 ```
 
 访问 [http://localhost:3000](http://localhost:3000) 查看应用。
 
-### 📖 文档
-
-- [部署指南](./DEPLOYMENT.md) - 详细的部署说明
-- [变更日志](./CHANGELOG.md) - 版本更新记录
-- [贡献指南](./CONTRIBUTING.md) - 如何参与贡献
 
 ### 🛠️ 技术栈
 
@@ -185,7 +180,7 @@ npm run build
 npm run start
 
 # standalone mode
-./build-package.sh 0.2.20 
+./build-package.sh -v 0.2.20 
 cd dist/ && ./start.sh --debug -d /var/log/ai-sec-agent/data/
 ```
 
