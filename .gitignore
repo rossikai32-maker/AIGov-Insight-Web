@@ -55,19 +55,13 @@ Thumbs.db
 .DS_Store
 
 # Logs
-logs/
-*.log
 log.txt
 
 # Build artifacts
 *.tar
 *.tar.gz
-ai-sec-web.tar.gz
 
 # Temporary files
 tmp/
 temp/
 *.tmp
-
-# Trae IDE
-.trae/
