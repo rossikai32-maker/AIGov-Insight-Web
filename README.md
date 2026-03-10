@@ -5,7 +5,9 @@
 **恒安嘉新大模型与智能体安全治理平台 - 可视化分析层**
 
 [![Eversec](https://img.shields.io/badge/Eversec-CN-blue?link=https://www.eversec.com.cn)](https://www.eversec.com.cn) [![Eversec.AI](https://img.shields.io/badge/Eversec-AI-green?link=https://www.eversec.com.cn)](https://www.eversec.com.cn) 
+
 [![GitHub stars](https://img.shields.io/github/stars/Eversec-AI/AIGov-Insight-Web?style=social)](https://github.com/Eversec-AI/AIGov-Insight-Web/stargazers) [![GitHub forks](https://img.shields.io/github/forks/Eversec-AI/AIGov-Insight-Web?style=social)](https://github.com/Eversec-AI/AIGov-Insight-Web/network/members) [![GitHub release](https://img.shields.io/github/v/release/Eversec-AI/AIGov-Insight-Web?include_prereleases)](https://github.com/Eversec-AI/AIGov-Insight-Web/releases)
+
 [![Next.js](https://img.shields.io/badge/Next.js-16-black?logo=next.js)](https://nextjs.org/) [![React](https://img.shields.io/badge/React-19-61dafb?logo=react)](https://react.dev/) [![TypeScript](https://img.shields.io/badge/TypeScript-5-3178c6?logo=typescript)](https://www.typescriptlang.org/) [![Tailwind CSS](https://img.shields.io/badge/Tailwind-4-38B2AC?logo=tailwind-css)](https://tailwindcss.com/) [![Node.js](https://img.shields.io/badge/Node.js-20+-339933?logo=node.js)](https://nodejs.org/)
 
 
@@ -40,7 +42,7 @@
 - **自然语言搜索** - 智能日志检索
 
 #### 🎯 专业能力
-- **OpenClaw 可观测能力** - 支持最新 AI 框架
+- **OpenClaw 可观测能力** - 支持最新 AI Agent 框架
 - **系统命令执行监控** - 追踪 AI 执行的系统命令
 - **多会话关联分析** - 跨会话事件关联
 - **全文搜索 + Dark Mode** - 现代化用户体验
@@ -69,6 +71,7 @@
 - Ubuntu 22.04 LTS
 - Node.js 20+ 
 - npm 或 yarn 包管理器
+- [AIGov-Insight Agent](https://github.com/Eversec-ai/AIGov-Insight-Agent) 智能探针
 
 #### 安装与运行
 
@@ -82,6 +85,8 @@ npm install --legacy-peer-deps
 
 # 开发模式
 npm run dev
+# 开启调试模式，指定日志目录为 AIGov-Insight Agent 探针默认输出日志目录。
+npm run dev -- --debug -d /var/log/ai-sec-agent/data/ 
 
 # 生产模式
 npm run build
@@ -93,7 +98,7 @@ cd dist/ && ./start.sh --debug -d /var/log/ai-sec-agent/data/
 
 ```
 
-访问 [http://localhost:3000](http://localhost:3000) 查看应用。
+访问 [http://localhost:3000](http://localhost:3000) 开启全链路安全洞察之旅 🎉🎉。
 
 
 ### 🛠️ 技术栈
@@ -164,6 +169,8 @@ This is a modern observability tool tailored for next-generation AI systems (LLM
 
 ### 🚀 Quick Start
 
+First make sure the [AIGov-Insight Agent](https://github.com/Eversec-ai/AIGov-Insight-Agent) is installed and started.
+
 ```bash
 # Clone the repository
 git clone https://github.com/eversec/AIGov-Insight-web.git
@@ -174,6 +181,8 @@ npm install --legacy-peer-deps
 
 # Development mode
 npm run dev
+# Debug mode, '-d' set to AIGov-Insight Agent log path。
+npm run dev -- --debug -d /var/log/ai-sec-agent/data/ 
 
 # Production mode
 npm run build
@@ -184,7 +193,7 @@ npm run start
 cd dist/ && ./start.sh --debug -d /var/log/ai-sec-agent/data/
 ```
 
-Visit [http://localhost:3000](http://localhost:3000) to view the application.
+Visit [http://localhost:3000](http://localhost:3000) to view the application and start your security journey  🎉🎉.
 
 ### 📄 License
 
