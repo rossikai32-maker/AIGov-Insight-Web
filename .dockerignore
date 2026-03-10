@@ -1,0 +1,39 @@
+# 依赖目录
+node_modules/
+
+# Next.js构建缓存
+.next/cache/
+.next/dev/
+
+# 日志目录
+logs/
+
+# IDE文件
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 环境变量文件
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 构建工具文件
+Dockerfile
+.dockerignore
+
+# 测试文件
+*.test.js
+*.test.ts
+*.test.jsx
+*.test.tsx
+
+# 覆盖率报告
+coverage/
+
+# 操作系统文件
+.DS_Store
+Thumbs.db
