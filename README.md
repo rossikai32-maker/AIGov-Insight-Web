@@ -5,7 +5,7 @@
 **恒安嘉新大模型与智能体安全治理平台 - 可视化分析层**
 
 [![Eversec](https://img.shields.io/badge/Eversec-CN-blue?link=https://www.eversec.com.cn)](https://www.eversec.com.cn) [![Eversec.AI](https://img.shields.io/badge/Eversec-AI-green?link=https://www.eversec.com.cn)](https://www.eversec.com.cn) 
-[![GitHub stars](https://img.shields.io/github/stars/Eversec-AI/AISec-Insight-Web?style=social)](https://github.com/Eversec-AI/AISec-Insight-Web/stargazers) [![GitHub forks](https://img.shields.io/github/forks/Eversec-AI/AISec-Insight-Web?style=social)](https://github.com/Eversec-AI/AISec-Insight-Web/network/members) [![GitHub release](https://img.shields.io/github/v/release/eversec/aisec-insight-web?include_prereleases)](https://github.com/eversec/aigov-insight-web/releases)
+[![GitHub stars](https://img.shields.io/github/stars/Eversec-AI/AIGov-Insight-Web?style=social)](https://github.com/Eversec-AI/AIGov-Insight-Web/stargazers) [![GitHub forks](https://img.shields.io/github/forks/Eversec-AI/AIGov-Insight-Web?style=social)](https://github.com/Eversec-AI/AIGov-Insight-Web/network/members) [![GitHub release](https://img.shields.io/github/v/release/Eversec-AI/AIGov-Insight-Web?include_prereleases)](https://github.com/Eversec-AI/AIGov-Insight-Web/releases)
 [![Next.js](https://img.shields.io/badge/Next.js-16-black?logo=next.js)](https://nextjs.org/) [![React](https://img.shields.io/badge/React-19-61dafb?logo=react)](https://react.dev/) [![TypeScript](https://img.shields.io/badge/TypeScript-5-3178c6?logo=typescript)](https://www.typescriptlang.org/) [![Tailwind CSS](https://img.shields.io/badge/Tailwind-4-38B2AC?logo=tailwind-css)](https://tailwindcss.com/) [![Node.js](https://img.shields.io/badge/Node.js-20+-339933?logo=node.js)](https://nodejs.org/)
 
 
