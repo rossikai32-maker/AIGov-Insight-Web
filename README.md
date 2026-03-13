@@ -68,7 +68,7 @@
 #### 前置要求
 
 - x86_64 架构
-- Ubuntu 22.04 LTS
+- Ubuntu 22.04 LTS / Windows 11
 - Node.js 20+ 
 - npm 或 yarn 包管理器
 - [AIGov-Insight Agent](https://github.com/Eversec-ai/AIGov-Insight-Agent) 智能探针
@@ -81,6 +81,8 @@ git clone https://github.com/eversec/AIGov-Insight-web.git
 cd AIGov-Insight-web
 
 # 安装依赖
+npm install
+# 如果有冲突
 npm install --legacy-peer-deps
 
 # 开发模式
