@@ -43,13 +43,29 @@ if (enableQuickLogin) {
 }
 
 // 启动Next.js
-const nextBinary = path.join(process.cwd(), 'node_modules', '.bin', 'next');
-const nextProcess = spawn(nextBinary, [command], {
-  stdio: 'inherit',
-  cwd: process.cwd()
-});
+const isWindows = process.platform === 'win32';
 
-nextProcess.on('error', (error) => {
-  console.error('Failed to start Next.js:', error);
-  process.exit(1);
-});
+if (isWindows) {
+  // 在Windows上使用cmd.exe执行npx next命令
+  const nextProcess = spawn('cmd.exe', ['/c', 'npx', 'next', command], {
+    stdio: 'inherit',
+    cwd: process.cwd()
+  });
+
+  nextProcess.on('error', (error) => {
+    console.error('Failed to start Next.js:', error);
+    process.exit(1);
+  });
+} else {
+  // 在非Windows上直接执行next命令
+  const nextBinary = path.join(process.cwd(), 'node_modules', '.bin', 'next');
+  const nextProcess = spawn(nextBinary, [command], {
+    stdio: 'inherit',
+    cwd: process.cwd()
+  });
+
+  nextProcess.on('error', (error) => {
+    console.error('Failed to start Next.js:', error);
+    process.exit(1);
+  });
+}

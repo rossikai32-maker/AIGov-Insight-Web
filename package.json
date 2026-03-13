@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "全球首款大模型与智能体安全治理平台 - 可视化分析层 | The world's first LLM & Agent security governance platform - Visualization layer",
   "author": "Eversec (恒安嘉新)",
-  "license": "Apache-2.0",
+  "license": "Open Source License",
   "private": false,
   "repository": {
     "type": "git",
@@ -29,11 +29,11 @@
     "start": "node server.js start",
     "lint": "eslint",
     "register": "tsx src/lib/registerUser.ts",
-    "package": "next build && ./build-package.sh"
+    "package": "next build && ./build-package.sh",
+    "next:dev": "next dev",
+    "next:start": "next start"
   },
   "dependencies": {
-    "@auth/core": "^0.34.3",
-    "@auth/nextjs": "^0.0.0-380f8d56",
     "bcrypt": "^6.0.0",
     "clsx": "^2.1.1",
     "date-fns": "^4.1.0",
@@ -41,8 +41,10 @@
     "lucide-react": "^0.562.0",
     "next": "16.1.1",
     "next-auth": "^4.24.13",
+    "oauth": "^0.10.2",
     "react": "19.2.3",
     "react-dom": "19.2.3",
+    "react-is": "^19.2.4",
     "recharts": "^3.6.0",
     "tailwind-merge": "^3.4.0"
   },
