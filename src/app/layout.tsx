@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
 import Script from "next/script";
 import "./globals.css";
 import BackgroundLayout from './BackgroundLayout';
@@ -7,15 +6,16 @@ import { AuthProvider } from "@/components/AuthProvider";
 import { TransparencyProvider } from "@/context/TransparencyContext";
 import { ThemeProvider } from "@/context/ThemeContext";
 
-const geistSans = Geist({
+// 使用系统字体替代Google Fonts，避免网络下载问题
+const geistSans = {
   variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
+  className: "font-sans"
+};
 
-const geistMono = Geist_Mono({
+const geistMono = {
   variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
+  className: "font-mono"
+};
 
 export const metadata: Metadata = {
   title: "AI-SEC WEB",
