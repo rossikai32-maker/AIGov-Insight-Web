@@ -102,6 +102,47 @@ cd dist/ && ./start.sh --debug -d /var/log/ai-sec-agent/data/
 
 访问 [http://localhost:3000](http://localhost:3000) 开启全链路安全洞察之旅 🎉🎉。
 
+### 👤 账户管理
+
+系统提供交互式账户管理工具，支持创建、修改、删除登录账户。
+
+#### 交互式操作（推荐）
+
+```bash
+npm run account
+# 或简写
+npm run acc
+```
+
+使用 **上下键** 选择操作，**回车** 确认。
+
+#### 快捷命令
+
+```bash
+# 查看账户列表
+npm run acc ls
+
+# 创建账户
+npm run acc add <用户名> <密码> [邮箱]
+
+# 修改密码
+npm run acc pwd <用户名> <新密码>
+
+# 删除账户
+npm run acc rm <用户名>
+```
+
+#### 功能说明
+
+| 命令 | 说明 |
+|------|------|
+| `ls` / `list` | 查看所有账户 |
+| `add` / `create` | 创建新账户 |
+| `pwd` / `passwd` | 修改账户密码 |
+| `rm` / `delete` | 删除账户 |
+
+> 密码使用 bcrypt 加密存储，安全可靠。
+
 
 ### 🛠️ 技术栈
 
@@ -196,6 +237,47 @@ cd dist/ && ./start.sh --debug -d /var/log/ai-sec-agent/data/
 ```
 
 Visit [http://localhost:3000](http://localhost:3000) to view the application and start your security journey  🎉🎉.
+
+### 👤 Account Management
+
+Interactive account management tool for creating, modifying, and deleting login accounts.
+
+#### Interactive Mode (Recommended)
+
+```bash
+npm run account
+# or shorthand
+npm run acc
+```
+
+Use **arrow keys** to select, **Enter** to confirm.
+
+#### Quick Commands
+
+```bash
+# List accounts
+npm run acc ls
+
+# Create account
+npm run acc add <username> <password> [email]
+
+# Change password
+npm run acc pwd <username> <new_password>
+
+# Delete account
+npm run acc rm <username>
+```
+
+#### Command Reference
+
+| Command | Description |
+|---------|-------------|
+| `ls` / `list` | List all accounts |
+| `add` / `create` | Create new account |
+| `pwd` / `passwd` | Change password |
+| `rm` / `delete` | Delete account |
+
+> Passwords are encrypted with bcrypt for security.
 
 ### 📄 License
 

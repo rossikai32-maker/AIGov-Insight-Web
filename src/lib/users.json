@@ -5,12 +5,6 @@
       "name": "admin",
       "email": "admin@example.com",
       "password": "$2b$10$cedTpXSOmMA/Cw./JyRHi.OGmUADoXgGTL38j73sHnuftiKLMQu5u"
-    },
-    {
-      "id": "2",
-      "name": "usr",
-      "email": "usr@example.com",
-      "password": "$2b$10$ISWAPJRyzqRhiGm4IjyjaO/updsXuKQ0LNKsnA8s9xrp6kYGcdKZi"
     }
   ]
 }
