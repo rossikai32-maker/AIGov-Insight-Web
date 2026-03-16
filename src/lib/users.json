@@ -4,13 +4,13 @@
       "id": "1",
       "name": "admin",
       "email": "admin@example.com",
-      "password": "$2b$10$LmdhTWvbp4.ASnlKK5mJGOwy.XQ6U6yWg6xpY485HqGu6pzdVcrS."
+      "password": "$2b$10$cedTpXSOmMA/Cw./JyRHi.OGmUADoXgGTL38j73sHnuftiKLMQu5u"
     },
     {
       "id": "2",
-      "name": "testuser",
-      "email": "testuser@example.com",
-      "password": "$2b$10$3n9/tG6rrd5DXENlJwy8peUx6mYaWba9sA4hRYKmmZkoLLUSxPuCa"
+      "name": "usr",
+      "email": "usr@example.com",
+      "password": "$2b$10$ISWAPJRyzqRhiGm4IjyjaO/updsXuKQ0LNKsnA8s9xrp6kYGcdKZi"
     }
   ]
 }
