@@ -4,7 +4,7 @@
 
 **恒安嘉新大模型与智能体安全治理平台 - 可视化分析层**
 
-[![Eversec](https://img.shields.io/badge/Eversec-CN-blue?link=https://www.eversec.com.cn)](https://www.eversec.com.cn) [![Eversec.AI](https://img.shields.io/badge/Eversec-AI-green?link=https://www.eversec.com.cn)](https://www.eversec.com.cn) 
+[![Eversec](https://img.shields.io/badge/Eversec-CN-blue?link=https://www.eversec.com.cn)](https://www.eversec.com.cn) [![Eversec.AI](https://img.shields.io/badge/AIGov-Insight-green?link=https://dreamheart09.github.io/page-AstroWind/)](https://dreamheart09.github.io/page-AstroWind/) 
 
 [![GitHub stars](https://img.shields.io/github/stars/Eversec-AI/AIGov-Insight-Web?style=social)](https://github.com/Eversec-AI/AIGov-Insight-Web/stargazers) [![GitHub forks](https://img.shields.io/github/forks/Eversec-AI/AIGov-Insight-Web?style=social)](https://github.com/Eversec-AI/AIGov-Insight-Web/network/members) [![GitHub release](https://img.shields.io/github/v/release/Eversec-AI/AIGov-Insight-Web?include_prereleases)](https://github.com/Eversec-AI/AIGov-Insight-Web/releases)
 
